@@ -1,0 +1,220 @@
+#header {
+  position: absolute;
+  z-index: 150;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#header #container-fixed {
+  height: 100%;
+  padding: 0;
+}
+
+.header-body {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-backface-visibility: hidden;
+  height: 100%;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar-default {
+  background: none;
+  border: none;
+  margin-bottom: 0;
+  height: 100%;
+  align-items: flex-start;
+  padding: 0;
+}
+.navbar-nav {
+  position: absolute;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: flex;
+}
+.navbar-nav:hover {
+  right: -20%;
+}
+.navbar-nav li {
+  width: 10%;
+  position: relative;
+  height: 100%;
+  -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 70%);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px rgb(0 0 0 / 70%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.navbar-nav li:hover {
+  width: 40%;
+}
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
+    url("../../assets/images/home.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
+    url("../../assets/images/about.jpg");
+
+  background-position: center center;
+  background-size: cover;
+}
+.skills {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
+    url("../../assets/images/skills.jpg");
+
+  background-position: center center;
+  background-size: cover;
+}
+.works {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
+    url("../../assets/images/works2.jfif");
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
+    url("../../assets/images/contacts.jfif");
+
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-icon {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  font-weight: 400;
+  font-family: "josefin-sans", sans-serif;
+  font-size: 60px;
+  line-height: 80px;
+}
+.rotated-title {
+  position: absolute;
+  left: 15px;
+  bottom: 50px;
+  font-size: 42px;
+  letter-spacing: 3px;
+  line-height: 60px;
+  width: 60px;
+  white-space: nowrap;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-family: "josefin-sans", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+.navbar-nav > li:hover > .rotated-title,
+.navbar-nav > li:hover > .bg-icon {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* scroll to bottom change header*/
+#header .header-body-fixed {
+  height: 100px;
+}
+
+#header.header-top-fixed .full-screen-block {
+  height: 100px !important;
+}
+
+#header.header-top-fixed {
+  position: fixed;
+  height: 100px;
+  -webkit-box-shadow: 0 0 40px rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 40px rgb(0 0 0 / 10%);
+}
+#header .header-body-fixed .navbar-default {
+  background-color: rgba(34, 34, 34, 0.95);
+}
+
+#header .header-body-fixed .navbar-default .navbar-nav {
+  height: 100px;
+}
+
+#header .header-body-fixed .navbar-default .navbar-nav li {
+  height: 100px;
+  background-size: cover;
+}
+#header .header-body-fixed .navbar-default .navbar-nav li .bg-icon {
+  color: rgba(255, 255, 255, 0.2);
+  top: 8px;
+}
+#header .header-body-fixed .navbar-default .navbar-nav li .rotated-title {
+  display: none;
+}
+#header .header-body-fixed #container-fixed {
+  padding: 0;
+  height: 100px;
+}
+
+@keyframes swing_nav {
+  from {
+    left: 1500px;
+  }
+  to {
+    left: 0;
+  }
+}
+.link-item {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0);
+  font-family: "open-sans", sans-serif;
+  font-size: 13px;
+  padding: 40px 20px;
+  letter-spacing: 3px;
+  font-weight: 900;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.show-nav {
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-animation: linear forwards;
+  -webkit-animation-name: swing_nav;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-animation-duration: 0.3s;
+}
+
+.navbar-nav > li > .show-nav:hover {
+  color: #ffffff;
+}

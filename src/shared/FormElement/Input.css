@@ -1,0 +1,117 @@
+.form__container_wrapper-form-item {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+}
+
+.form-control--invalid .error_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #eb5757;
+}
+
+input {
+  width: 340px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #c2c2c2;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  padding-left: 40px;
+  outline: none;
+  cursor: pointer;
+}
+::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+}
+input:nth-child(1) {
+  border-bottom: 1px solid #bfd2f8;
+}
+/* input:hover {
+  background-color: #bfd2f8;
+  color: #1f2b6c;
+}
+input:hover::placeholder {
+  color: #1f2b6c;
+} */
+
+.form__container_wrapper-form-item ::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.place-holder {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-size: 9px;
+  line-height: 11px;
+  color: #a3a0b1;
+  /* color: #EB5757; */
+}
+.place-holder-invalid {
+  top: 8px;
+  left: 12px;
+  font-size: 9px;
+  color: #eb5757;
+}
+textarea {
+  height: 135px;
+  width: 529px;
+  resize: none;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #c2c2c2;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+  padding: 11px 0 0 40px;
+}
+textarea::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .form__container_wrapper-form-item {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+  }
+  .form__container_wrapper-form-item:last-child {
+    height: 135px;
+  }
+  .form-control--invalid p {
+    margin-left: 0;
+  }
+  input {
+    width: 260px;
+    height: 50px;
+  }
+  textarea {
+    height: 135px;
+    width: 260px;
+  }
+}

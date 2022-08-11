@@ -1,0 +1,103 @@
+#about {
+  background-image: url("../assets/images/about.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#about .section-block-title {
+  max-width: 50%;
+}
+
+#about .widget-block:last-child {
+  margin-top: 30px;
+  border: 1px solid transparent;
+}
+.widget-block .progress:last-child {
+  margin: 50px 0;
+}
+.progress {
+  height: 2px;
+  border-radius: 0;
+  margin: 50px 0 100px;
+  box-shadow: none;
+  background-color: rgba(180, 110, 60, 0.1);
+  position: relative;
+  overflow: visible;
+}
+@keyframes full_up_1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+@keyframes full_up_2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
+  }
+}
+@keyframes full_up_3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 95%;
+  }
+}
+.progress .progress-bar {
+  background-color: #b46e3c;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+}
+.full_up_1 {
+  -webkit-animation: linear forwards;
+  -webkit-animation-name: full_up_1;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-animation-duration: 3s;
+}
+.full_up_2 {
+  -webkit-animation: linear forwards;
+  -webkit-animation-name: full_up_2;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-animation-duration: 3s;
+}
+.full_up_3 {
+  -webkit-animation: linear forwards;
+  -webkit-animation-name: full_up_3;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-animation-duration: 3s;
+}
+.progress .skill-value {
+  float: left;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  top: -53px;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 40px;
+  height: 40px;
+  font-family: "josefin-sans", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.progress .skill-value span {
+  color: rgba(255, 255, 255, 0.5);
+  float: right;
+}
+
+.progress.dark .skill-value {
+  color: rgba(34, 34, 34, 0.9);
+}
+
+.progress.dark .skill-value span {
+  color: rgba(34, 34, 34, 0.9);
+}
+

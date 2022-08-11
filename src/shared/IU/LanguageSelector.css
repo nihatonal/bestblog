@@ -1,0 +1,139 @@
+.select-lang {
+  width: 66px;
+  /* margin-left: 284px; */
+  position: relative;
+  cursor: pointer;
+  background:transparent;
+}
+
+.select-lang img {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+button {
+  border: none;
+  width: 49px;
+  outline: none;
+  background: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #2c4776;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* button::after {
+  position: absolute;
+  right: -20px;
+  top: -2px;
+  content: url(../../assets//icons//arrowdown.svg);
+}
+
+button.expanded::after {
+  content: url(../../assets//icons//arrowdown.svg);
+  transform: rotate(180deg);
+  top: 4px;
+} */
+
+ul.options {
+  width: 144px;
+  height: 123px;
+  display: none;
+  list-style: none;
+  padding: 4px 0;
+  position: absolute;
+  top: 46px;
+  z-index: 99;
+  background: #ffffff;
+  box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+ul.show {
+  display: block;
+}
+
+ul.options li {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #3f3e3e;
+}
+ul.options li img {
+  margin-right: 10px;
+}
+ul.options li:active,
+ul.options li:focus,
+ul.options li:hover,
+ul.options li[aria-selected="true"] {
+  background: #f3f6f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .select-lang {
+    width: 10px;
+    margin-left:0;
+    position: relative;
+    cursor: pointer;
+  }
+  .select-lang button span {
+    display: none;
+  }
+  .select-lang button {
+    width: 10px;
+  }
+  button::after {
+    content: none;
+  }
+
+  button.expanded::after {
+    content: none;
+  }
+  ul.options {
+    width: 50px;
+    height: 110px;
+    padding: 4px 0;
+    position: absolute;
+    top: 36px;
+    padding-top: 10px;
+  }
+  ul.options li {
+    height: 45px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 44px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #3f3e3e;
+  }
+  ul.options li span {
+    display: none;
+  }
+}

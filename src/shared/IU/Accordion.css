@@ -1,0 +1,46 @@
+.accordion-item {
+  list-style: none;
+  max-width: 281px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.accordion-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: none;
+  height: 51px;
+  padding-bottom: 12px;
+  margin-top: 15px;
+}
+.accordion-toggle:nth-last-child(5) {
+  margin-top: 0;
+}
+/* .accordion-toggle:hover {
+  background-color: #ddd;
+} */
+.accordion-toggle h3 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2c4776;
+}
+.accordion-toggle p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #c2c2c2;
+  margin-bottom: 4px;
+}
+.accordion-content {
+  background-color: none;
+  width: 281px;
+  padding: 0;
+  margin-bottom:30px;
+}

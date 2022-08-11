@@ -1,0 +1,406 @@
+{
+  "exploreHeader": "Erkunden",
+  "welcomeDescription": "Dies ist eine Demo-App für mehrsprachige Webseiten mit React Context API",
+  "clickMe": "Klick mich",
+  "aboutMe": "Weitere Informationen zum Autor",
+  "hero-suptitle": "Wir lösen jede schwierige Aufgabe!",
+  "hero-title": "DER GANZE KOMPLEX VON",
+  "hero-title-span": "LOGISTIK",
+  "hero-title-second": "DIENSTLEISTUNGEN",
+  "hero-text-1": "Wir sind mit der Organisation von Lieferungen und Frachttransporten von Haushaltswaren bis hin zu teuren Geräten betraut.",
+  "hero-text-2": "Wir bieten eine vollständige Palette von schlüsselfertigen Dienstleistungen vom Kauf bei einem Lieferanten bis zur Lieferung an Ihre Adresse.",
+  "hero-text-3": "FEA - Auslagerung",
+  "hero-text-4": "Wir arbeiten mit Fracht auf der ganzen Welt",
+  "aboutus": "Über uns",
+  "services": "Services",
+  "shipping": "Internationaler Versand",
+  "solution": "Geschäftslösung",
+  "cargo": "Sammelladung",
+  "docs": "Dokumentieren",
+  "info": "Information",
+  "work-subtitle": "Wie wir sind",
+  "work-title": "Arbeiten",
+  "work-desc-1": "Unser Logistikunternehmen organisiert die Lieferung, den Transport und die Verzollung der Waren.",
+  "work-desc-2": "Uns wird Fracht für verschiedene Zwecke anvertraut: Computer, Server und Komponenten dafür, Videoüberwachungssysteme, Komponenten für Telekommunikationssysteme, Inspektionsröntgengeräte, landwirtschaftliche Geräte und Komponenten dafür, Haushaltswaren, Lebensmittel und andere Fracht.",
+  "work-items": [
+    {
+      "title": "Deal-Kalkulation",
+      "id": "0001",
+      "desc": "Kunde füllt Antrag aus.",
+      "desc2": "Der Manager berechnet die Transportkosten und die damit verbundenen Dienstleistungen."
+    },
+    {
+      "title": "Vertragsunterzeichnung",
+      "id": "0002",
+      "desc": "Unser Manager bereitet die Vereinbarung auf der Grundlage des Antrags vor. Die Unterzeichnung der Vereinbarung kann mit EDS durchgeführt werden"
+    },
+    {
+      "title": "Zahlung an Lieferanten",
+      "id": "0003",
+      "desc": "Wir können uns um den gesamten Aufwand für den Abschluss eines Außenwirtschaftsvertrags und die Durchführung von Währungsüberweisungen an Ihren Lieferanten kümmern."
+    },
+    {
+      "title": "Transport und Zoll",
+      "ID": "0004",
+      "desc": "Unser Manager überwacht die Ausführung des Transports und der damit verbundenen Dienstleistungen in allen Phasen des Transports und der Zollabfertigung (falls im Antrag enthalten) und berät den Kunden auch über die Vollständigkeit und Richtigkeit der für den Transport erforderlichen Dokumente (Zollabfertigung )."
+    },
+    {
+      "title": "Dokumentarische Unterstützung",
+      "id": "0005",
+      "desc": "Unser Manager erstellt und übergibt dem Kunden einen vollständigen Satz notwendiger Dokumente für den durchgeführten Transport und die damit verbundenen Dienstleistungen."
+    }
+  ],
+  "form-title": "Haben Sie Fragen ?",
+  "form-desc": "Bei allen Fragen können Sie sich an den Manager des Unternehmens wenden. Wir werden uns zu einem für Sie günstigen Zeitpunkt mit Ihnen in Verbindung setzen",
+  "form-name": "Ihr Name",
+  "form-email": "E-Mail",
+  "form-msg": "Nachricht",
+  "form-note": "Indem Sie auf die Schaltfläche 'Senden' klicken, bestätigen Sie, dass Sie mit der Datenschutzerklärung einverstanden sind",
+  "form-btn": "Senden",
+  "suggest-title": "Angebot",
+  "suggest-subtitle": "Was sind wir",
+  "suggest-desc": "Unser Logistikunternehmen bietet Außenhandels-Outsourcing- und Transportlogistik-Dienstleistungen an.",
+  "suggest-desc2": "Unsere Manager regeln alle Fragen im Zusammenhang mit der Außenwirtschaftstätigkeit und organisieren den internationalen Transport aller Waren, einschließlich: jeder Komplexität und jedes Transportmittels, damit sich Ihre Organisation auf die Führung ihres eigenen Geschäfts konzentrieren kann.",
+  "suggest-desc3": "Wir übernehmen sowohl die Organisation einer einmaligen Lieferung als auch die ununterbrochene Versorgung Ihres Unternehmens mit Waren, Rohstoffen, Ausrüstungen. Wir können Waren aus dem Ausland schlüsselfertig liefern: Suche nach einem Lieferanten, Vertragsabschluss (sowohl für Sie selbst als auch für den Kunden), Geldtransfer, Beglaubigung, Zollabfertigung, Haus-zu-Haus-Lieferung.",
+  "service-title": "DIENSTE",
+  "service-subtitle": "Warum uns wählen",
+  "service-menu": [
+    {
+      "id": "01",
+      "title": "Kontraktlogistik für AST",
+      "menuCode": "service-contract"
+    },
+    {
+      "id": "02",
+      "title": "Frachtabholung und Verpackung",
+      "menuCode": "service-packaging"
+    },
+    {
+      "id": "03",
+      "title": "Inspektion und Inspektion der Ladung",
+      "menuCode": "service-inspection"
+    },
+    {
+      "id": "04",
+      "title": "Speicher",
+      "menuCode": "service-storage"
+    },
+    {
+      "id": "05",
+      "title": "Zollabfertigung:",
+      "menuCode": "service-customs"
+    }
+  ],
+  "service-customs-menu": [
+    {
+      "id": "11",
+      "title": "Standardimport"
+    },
+    {
+      "id": "12",
+      "title": "temporärer Import"
+    },
+    {
+      "id": "13",
+      "title": "transit"
+    },
+    {
+      "id": "14",
+      "title": "re-exportieren"
+    }
+  ],
+  "service-contract": [
+    {
+      "id": "21",
+      "subtitle": "Wir werden die Funktionen der Außenwirtschaftstätigkeit der Abteilung Ihres Unternehmens auslagern: Außenwirtschaftstätigkeit"
+    },
+    [
+      {
+        "id": "22",
+        "item": "Arbeiten mit Importlieferanten / -käufern, nämlich: Suche nach Partnern, Aushandeln der Geschäftsbedingungen, Vorbereitung auf die Unterzeichnung von Außenwirtschaftsverträgen"
+      },
+      {
+        "id": "23",
+        "item": "Finanzflussmanagement bei der Durchführung von Außenwirtschaftsaktivitäten, die ein wichtiger Bestandteil des Logistikprozesses sind und das Endergebnis erheblich beeinflussen können. Teilnahme an allen Phasen des Finanzwegs, um ihn optimal und korrekt zu gestalten"
+      },
+      {
+        "id": "24",
+        "item": "Kosten- und Ertragsmanagement für ausländische Wirtschaftsbetriebe."
+      },
+      {
+        "id": "25",
+        "item": "Erbringung von Dienstleistungen eines Außenwirtschaftsbeauftragten. (Agent für Außenwirtschaftstätigkeit)"
+      },
+      {
+        "id": "26",
+        "item": "Bereitstellung von Importeur/Exporteur-Dienstleistungen."
+      }
+    ],
+    {
+      "id": "27",
+      "desc": "Wir bieten auch Frachtkonsolidierungsdienste in den Lagern von Partneragenten in China an, wodurch Sie Geld sparen können, indem Sie eine große Sendung versenden."
+    },
+    {
+      "id": "28",
+      "desc": "Wir arbeiten mit Air aus Südostasien, Nordamerika und Europa zusammen."
+    },
+    {
+      "id": "29",
+      "desc": "Wenn Sie nach einer kostengünstigeren Versandoption suchen, aber nicht bereit sind, auf die Lieferung Ihrer Waren auf dem Seeweg zu warten, probieren Sie den Service der China Railway aus, über den Sie sich hier oder telefonisch informieren können."
+    }
+  ],
+  "service-packaging": [
+    {
+      "id": "31",
+      "subtitle": "Qualitätsverpackung ist eine Garantie für die Sicherheit Ihrer Fracht in allen Transportphasen. Baikal Service bietet die folgenden Arten von Frachtverpackungen an:"
+    },
+    [
+      {
+        "id": "32",
+        "item": "Eine Holzkiste ist ein Paket aus Holz, das speziell für die Größe der Sendung angefertigt wird."
+      },
+      {
+        "id": "33",
+        "item": "Palettieren von Fracht ist das Stapeln von Fracht auf einer Palette (1,2x0,8) mit Stretchfolie und Klebeband."
+      },
+      {
+        "id": "34",
+        "item": "Ein Palettenrahmen ist eine höhenverstellbare Holzkiste, die hilft, die Ladung vor äußeren Beschädigungen zu schützen."
+      },
+      {
+        "id": "35",
+        "item": "Verschließbarer Polypropylenbeutel wird zum Verpacken kleiner, wertvoller Ladungen, Chargen kleiner Ladungen verwendet. "
+      },
+      {
+        "id": "36",
+        "item": "Karton ist eine Mehrzweckverpackung, die beim Versand kleiner Artikel verwendet wird."
+      }
+    ]
+  ],
+  "service-inspection": [
+    {
+      "id": "41",
+      "subtitle": "Im Falle eines tatsächlichen oder angeblichen Verlusts oder einer Beschädigung der Ware sind der Empfänger und der Frachtführer verpflichtet, sich gegenseitig Gelegenheit zu geben, die Ware zu besichtigen oder ihren Zustand zu überprüfen, bevor die Ware an den Empfänger übergeben wird. "
+    },
+    [
+      {
+        "id": "42",
+        "item": "Sichtkontrolle der Ladung beim Be-/Entladen auf ein/aus einem Fahrzeug."
+      },
+      {
+        "id": "03",
+        "item": "Überprüfung des Fahrzeugs vor dem Beladen auf Eignung für die Beförderung einer bestimmten Ladungsart."
+      },
+      {
+        "id": "44",
+        "item": "Probenahme und Proben zum Versand an einen Kunden oder an ein Labor zur Analyse."
+      },
+      {
+        "id": "45",
+        "item": "Abgleich mit Dokumenten der korrekten Kennzeichnung und Barcodes auf Verpackungen, Packstücken."
+      },
+      {
+        "id": "46",
+        "item": "Prüfung der Qualität und Unversehrtheit der Verpackung, Sicherung der Pakete im Fahrzeug."
+      }
+    ]
+  ],
+  "service-storage": [
+    {
+      "id": "51",
+      "subtitle": "Die Sicherheitslagerung in den Lagern von Baikal Service ist ein ausgezeichneter Service zu wettbewerbsfähigen Preisen."
+    },
+    [
+      {
+        "id": "52",
+        "item": "Wir kommen und holen Ihre Sendung an jeder beliebigen Adresse ab. Sowohl bei Ihnen als auch bei Ihren Lieferanten."
+      },
+      {
+        "id": "53",
+        "item": "Lassen Sie uns Ihre Fracht, die auf Paletten oder als Schüttgut geliefert wurde, in unser Lagerhaus entladen."
+      },
+      {
+        "id": "54",
+        "item": "Zum Zeitpunkt der Annahme machen wir im Falle einer Eheschließung oder auf Ihren Wunsch hin ein Foto und senden es Ihnen per Post zu."
+      },
+      {
+        "id": "55",
+        "item": "Aufträge holen wir nach Ihren Vorgaben ab (stückweise, kistenweise, palettenweise, ladungseinheitenweise), verpacken die Ware in Wellpappenverpackungen oder sonstige Verpackungen, kleben Aufkleber und bringen die erforderlichen Informationsblätter an, stapeln auf Paletten und wickeln sie in der erforderlichen Anzahl Lagen Stretchfolie ein."
+      },
+      {
+        "id": "56",
+        "item": "Wir führen eine gezielte Zustellung in alle Städte unserer Präsenz sowie in alle Städte der gezielten und regionalen Zustellung durch."
+      }
+    ]
+  ],
+  "service-customs": [
+    {
+      "id": "61",
+      "subtitle": "Die Sicherheitslagerung in den Lagern von Baikal Service ist ein ausgezeichneter Service zu wettbewerbsfähigen Preisen."
+    },
+    [
+      {
+        "id": "62",
+        "item": "Wir kommen und holen Ihre Sendung an jeder beliebigen Adresse ab. Sowohl bei Ihnen als auch bei Ihren Lieferanten."
+      },
+      {
+        "id": "63",
+        "item": "Lassen Sie uns Ihre Fracht, die auf Paletten oder als Schüttgut geliefert wurde, in unser Lagerhaus entladen."
+      },
+      {
+        "id": "64",
+        "item": "Zum Zeitpunkt der Annahme machen wir im Falle einer Eheschließung oder auf Ihren Wunsch hin ein Foto und senden es Ihnen per Post zu."
+      },
+      {
+        "id": "65",
+        "item": "Aufträge holen wir nach Ihren Vorgaben ab (stückweise, kistenweise, palettenweise, ladungseinheitenweise), verpacken die Ware in Wellpappenverpackungen oder sonstige Verpackungen, kleben Aufkleber und bringen die erforderlichen Informationsblätter an, stapeln auf Paletten und wickeln sie in der erforderlichen Anzahl Lagen Stretchfolie ein."
+      },
+      {
+        "id": "66",
+        "item": "Wir führen eine gezielte Zustellung in alle Städte unserer Präsenz sowie in alle Städte der gezielten und regionalen Zustellung durch."
+      }
+    ]
+  ],
+  "transportation-title": "INTERNATIONALER GÜTERVERKEHR",
+  "transportation-subtitle": "Lösung",
+  "transportation-desc": "Wir organisieren die Haus-zu-Haus-Lieferung Ihrer Fracht mit beliebigen Transportmitteln. Wir verwenden eine Kombination verschiedener Transportmittel in der Lieferkette (multimodaler Transport) unter Berücksichtigung der Transportkostenoptimierung und Einhaltung grundlegender Logistikanforderungen und -kriterien.",
+  "transportation-items": [
+    {
+      "title": "Luft",
+      "id": "air",
+      "desc": "Umfassendes Angebot an Luftfrachtkonsolidierung und Direktservice.",
+      "time": "ab 3 Tagen"
+    },
+    {
+      "title": "Meer",
+      "id": "sea",
+      "desc": "Komplettlösungen für Seefracht LCL und FCL in alle Richtungen",
+      "time": "ab 7 Tagen"
+    },
+    {
+      "title": "Auto",
+      "id": "auto",
+      "desc": "LTL-Lösungen mit komplexer Lieferung. Europa, Russland, Nordafrika, GUS-Staaten, China",
+      "time": "ab 4 Tagen"
+    },
+    {
+      "title": "Eisenbahn",
+      "id": "wait",
+      "desc": "LCL- und FCL-Lösungen für schnelle Lieferungen von China nach Russland und Europa",
+      "time": "ab 2 Tagen"
+    }
+  ],
+  "business-title": "für BUSINESS",
+  "business-subtitle": "Lösungen",
+  "business-desc": "Wir sind bereit, nicht standardmäßige Lösungen für Ihr Unternehmen anzubieten, sowie eine vollständige Palette damit verbundener Dienstleistungen anzubieten.",
+  "business-items": [
+    {
+      "title": "DATA Center",
+      "id": "air",
+      "desc": "Wir verwalten die Logistikverfahren von DATA Ceters-Kunden",
+      "code": "01"
+    },
+    {
+      "title": "EOR-IOR-Agent",
+      "id": "Meer",
+      "desc": "Importeurs-/Exporteursdienste in Russland und Europa.",
+      "code": "02"
+    },
+    {
+      "title": "Zertifizierung",
+      "id": "auto",
+      "desc": "Wir bereiten ein Paket der erforderlichen Genehmigungen für die Zollabfertigung der Fracht vor - Zertifikate, DS, Benachrichtigungen, Lizenzen.",
+      "code": "03"
+    },
+    {
+      "title": "Versicherung",
+      "id": "warten",
+      "desc": "Wir helfen Ihnen bei der Auswahl einer Versicherungsgesellschaft für die Frachtversicherung.",
+      "code": "04"
+    },
+    {
+      "title": "Globaler Handelsagent",
+      "id": "warten",
+      "desc": "Wir bieten die Dienstleistungen eines International Trade Agents an. Wir führen auf Ihren Wunsch internationale Marktforschung durch, beraten Sie bei der Auswahl eines Lieferanten, führen Ausschreibungs- und Beschaffungsverfahren durch. Wir sind bereit, mit potenziellen Partnern zu verhandeln und abzuschließen Verträge mit ihnen als Ihr Agent.",
+      "code": "05"
+    }
+  ],
+  "groupage-cargo-title": "Sammelladung",
+  "groupage-cargo-items": [
+    {
+      "title": "Versand von/nach Europa",
+      "id": "cargo1"
+    },
+    {
+      "title": "Versand nach GUS",
+      "id": "cargo2"
+    },
+    {
+      "title": "Lieferung aus China",
+      "id": "cargo3"
+    },
+    {
+      "title": "Versand aus Korea",
+      "id": "cargo4"
+    },
+    {
+      "title": "Versand aus Israel",
+      "id": "cargo5"
+    },
+    {
+      "title": "Lieferung aus der Ukraine",
+      "id": "cargo6"
+    },
+    {
+      "title": "Versand aus Amerika",
+      "id": "cargo7"
+    },
+    {
+      "title": "Versand aus Kanada",
+      "id": "cargo8"
+    },
+    {
+      "title": "Versand von/nach Nordafrika",
+      "id": "cargo9"
+    }
+  ],
+  "partners-title": "Partner",
+  "partners-subtitle": "Unser",
+  "office": "Unsere buros",
+  "contacts": "Kontakte",
+  "company_name": "VEDEXPRESS LLC",
+  "company_id": "TIN 7811767459",
+  "company_address": "192029, St. Petersburg, Obukhovskoy oborony Ave. 76, Gebäude 7, lit. A, Raum 2313B",
+  "email": "info@vedexpress.com",
+  "schedule": "Mo-So: 10.00-18.00",
+  "aggrement": "Nutzungsvereinbarung",
+  "privacy_policy": "Datenschutzrichtlinie",
+  "docs-items": [
+    {
+      "title": "Рамочный договор",
+      "id": "doc1"
+    },
+    {
+      "title": "Дополнительное соглашение №1",
+      "id": "doc2"
+    }
+  ],
+  "info-items": [
+    {
+      "title": "На каких условиях Вы работаете?",
+      "id": "info1"
+    },
+    {
+      "title": "У У Вас свой парк автомобилей или нет?",
+      "id": "info2"
+    },
+    {
+      "title": "Нужно ли делать предоплату?",
+      "id": "info3"
+    },
+    {
+      "title": "Возможна ли отсрочка платежа?",
+      "id": "info4"
+    }
+  ]
+}

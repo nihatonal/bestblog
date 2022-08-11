@@ -1,0 +1,27 @@
+.social-icons {
+  height: 134px;
+  width: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position:absolute;
+  bottom: 35px;
+  left: 127px;
+}
+.social-icon-item-wrapper {
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  background-color: #b0b0b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icon-item {
+  color: #ffffff;
+}
+.social-icon-item-wrapper:hover {
+  background-color: #10A9FF;
+  cursor: pointer;
+}

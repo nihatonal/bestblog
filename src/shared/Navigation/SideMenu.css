@@ -1,0 +1,201 @@
+.side-menu-wrapper {
+  width: 1980px;
+  height: 1080px;
+  background: #2c4776;
+  position: absolute;
+  top: -4000px;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  transition: all 500ms;
+  transition-timing-function: cubic-bezier(0.5, 0.7, 1.1, 0.4);
+  z-index: 45;
+}
+.side-menu-items {
+  width: 842px;
+  height: 700px;
+  flex-direction: column;
+  margin: 196px 0 0 327px;
+}
+.side-menu-item {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100px;
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+}
+.side-menu-item:hover,
+.active-menu-item {
+  color: #0989ff;
+}
+/* .active-menu-item::before {
+  content: url("../../assets/icons/arrowmenu.svg");
+  position: absolute;
+  top: -10px;
+  left: -62px;
+} */
+.side-menu-item-content {
+  margin: 228px 0 0 133px;
+}
+
+.side-menu-item-content ul li {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 55px;
+  color: #ffffff;
+}
+
+.dropmenu-social-icons .social-icon-item {
+  color: #2c4776;
+}
+.dropmenu-social-icons .social-icon-item-wrapper:hover {
+  background-color: #fff;
+}
+.side-menu-info-content {
+  display: flex;
+  height: 40px;
+  position: absolute;
+  bottom: 26px;
+  left: 329px;
+}
+.side-menu-info-content .contact-item:first-child {
+  margin-right: 86px;
+}
+.dropmenu-icon {
+  color: #4ddf19;
+  margin-right: 20px;
+}
+
+.side-menu-wrapper .footer-item-text {
+  color: #fff;
+}
+.side-menu-phone {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 31px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  position: absolute;
+  bottom: 35px;
+  right: 53px;
+  cursor: pointer;
+}
+.side-menu-phone:hover {
+  text-decoration: underline;
+}
+.mobile_side_menu {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .side-menu-wrapper {
+    width: 320px;
+    height: 631px;
+    background: #2c4776;
+    position: absolute;
+    top: -4000px;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    transition: all 500ms;
+    transition-timing-function: cubic-bezier(0.5, 0.7, 1.1, 0.4);
+    z-index: 45;
+    background-image: none;
+  }
+  .dropmenu-social-icons .social-icon-item-wrapper {
+    width: 20px;
+    height: 20px;
+  }
+  .dropmenu-social-icons .social-icon-item {
+    font-size: 12px;
+  }
+  .dropmenu-social-icons {
+    left: 19px;
+    bottom: 34px;
+    width: 84px;
+    height: 20px;
+    flex-direction: row;
+  }
+  .side-menu-phone {
+    display: none;
+  }
+  .side-menu-info-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    bottom: 79px;
+    left: 19px;
+  }
+  .side-menu-info-content p {
+    line-height: 40px;
+  }
+
+  .side-menu-item-content {
+    display: none;
+  }
+  .side-menu-item-wrapper {
+    position: relative;
+  }
+  @keyframes open_menu {
+    from {
+      transform: scaleY(0);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
+  .mobile_side_menu {
+    display: flex;
+    height: auto;
+    margin: 0;
+    animation: open_menu 0.4s forwards;
+  }
+  .mobile-menu-items {
+    width: 100%;
+    list-style: none;
+    margin-left: 11px;
+  }
+  .side-menu-items {
+    width: 842px;
+    height: auto;
+    flex-direction: column;
+    margin: 58px 0 0 19px;
+  }
+  .side-menu-item {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .active-menu-item::before {
+    content: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .side-menu-item-content {
+    margin: 228px 0 0 133px;
+  }
+
+  .mobile_side_menu ul li {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21px;
+    font-style: normal;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .mobile_side_menu ul li:hover {
+    text-decoration: underline;
+  }
+  .mobile_side_menu .service-menu-item-customs {
+    padding-left: 0;
+    margin-left: 20px;
+  }
+}

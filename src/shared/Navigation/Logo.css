@@ -1,0 +1,21 @@
+.logo {
+  cursor: pointer;
+  margin: 0 106px 0 86px;
+  position:relative;
+  z-index: 99;
+}
+.logo_mobile {
+  display:none;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    margin:0;
+    margin-left: 18px;
+  }
+  .logo_destkop {
+    display:none;
+  }
+  .logo_mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,30 @@
+.wellcome {
+  overflow: hidden;
+  position: relative !important;
+  border-top: 100px solid transparent;
+  margin-top: -100px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #272727;
+  background-image: url("../assets/images/home.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.wellcome .section-block-title {
+  padding: 45px 45px 0 45px;
+  max-width: 68%;
+}
+.wellcome .section-title-body {
+  padding-bottom: 0;
+}
+.wellcome .bg-50-l {
+  background-color: rgba(39, 39, 39, 1);
+}
+.wellcome .bg-50-l::before {
+  content: none;
+}
+
+.wellcome .bg-inner-dark2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}

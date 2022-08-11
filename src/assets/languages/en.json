@@ -1,0 +1,403 @@
+{
+  "hero-suptitle": "We will solve any difficult task !",
+  "hero-title": "THE WHOLE COMPLEX OF",
+  "hero-title-span": "LOGISTICS",
+  "hero-title-second": "SERVICES",
+  "hero-text-1": "We are trusted with the organization of deliveries and cargo transportation from household goods to expensive equipment.",
+  "hero-text-2": "We provide a full range of turnkey services from purchase from a supplier to delivery to your address. We can connect at any stage of cargo transportation.",
+  "hero-text-3": "FEA - outsourcing",
+  "hero-text-4": "We work with cargo all over the world",
+  "aboutus": "About us",
+  "suggests": "Suggests",
+  "services": "Services",
+  "shipping": "International shipping",
+  "solution": "Business Solution",
+  "cargo": "Consolidated cargo",
+  "docs": "Documentain",
+  "info": "Information",
+  "work-subtitle": "How we are",
+  "work-title": "Working",
+  "work-desc-1": "Our logistics company organizes the delivery, transportation and customs clearance of goods.",
+  "work-desc-2": "We are trusted with cargo for various purposes: computers, servers and components for them, video surveillance systems, components for telecommunication systems, inspection x-ray equipment, agricultural equipment and components for it, household goods, food products and other cargo.",
+  "work-items": [
+    {
+      "title": "Deal calculation",
+      "id": "0001",
+      "desc": "Client fills out Application.",
+      "desc2": "The manager calculates the cost of transportation and related services."
+    },
+    {
+      "title": "Contract signing",
+      "id": "0002",
+      "desc": "Our Manager prepares the Agreement on the basis of the Application. Signing of the Agreement can be carried out using EDS"
+    },
+    {
+      "title": "Payment to supplier",
+      "id": "0003",
+      "desc": "We can take care of all the hassle of concluding a foreign economic contract and making currency transfers to your Supplier."
+    },
+    {
+      "title": "Transportation and Customs",
+      "id": "0004",
+      "desc": "Our Manager monitors the execution of transportation and related services at all stages of transportation and customs clearance (if included in the application), and also advises the Client on the completeness and correctness of the documents necessary for transportation (customs clearance)."
+    },
+    {
+      "title": "Documentary support",
+      "id": "0005",
+      "desc": "Our Manager prepares and transfers to the Client a complete set of necessary documents for the performed transportation and related services."
+    }
+  ],
+  "form-title": "Do you have any questions ?",
+  "form-desc": "For all questions, you can contact the manager of the company. We will contact you at a convenient time for you",
+  "form-name": "Your name",
+  "form-email": "Email",
+  "form-msg": "Message",
+  "form-note": "By clicking the 'Submit' button, you confirm that you agree with the privacy policy",
+  "form-btn": "Send",
+  "suggest-title": "offer",
+  "suggest-subtitle": "What are we",
+  "suggest-desc": "Our logistics company provides foreign trade outsourcing and transport logistics services.",
+  "suggest-desc2": "Our managers will settle all issues related to foreign economic activity and organize the international transportation of any goods, including: any complexity and any mode of transport, allowing your organization to concentrate on running its own business.",
+  "suggest-desc3": "We will undertake both the organization of a one-time supply and the uninterrupted supply of goods, raw materials, equipment to your business. We can deliver goods from abroad on a turnkey basis: search for a supplier, conclusion of a contract (both for yourself and for the Client), currency transfer, certification, customs clearance, door-to-door delivery.",
+  "service-title": "SERVICES",
+  "service-subtitle": "Why choose us",
+  "service-menu": [
+    {
+      "id": "01",
+      "title": "Contract Logistics for FEA",
+      "menuCode": "service-contract"
+    },
+    {
+      "id": "02",
+      "title": "Cargo Pickup and Packing",
+      "menuCode": "service-packaging"
+    },
+    {
+      "id": "03",
+      "title": "Inspection and inspection of cargo",
+      "menuCode": "service-inspection"
+    },
+    {
+      "id": "04",
+      "title": "Storage",
+      "menuCode": "service-storage"
+    },
+    {
+      "id": "05",
+      "title": "Customs clearance:",
+      "menuCode": "service-customs"
+    }
+  ],
+  "service-customs-menu": [
+    {
+      "id": "11",
+      "title": "standard import"
+    },
+    {
+      "id": "12",
+      "title": "temporary import"
+    },
+    {
+      "id": "13",
+      "title": "transit"
+    },
+    {
+      "id": "14",
+      "title": "re-export"
+    }
+  ],
+  "service-contract": [
+    {
+      "id": "21",
+      "subtitle": "We will outsource the functions of foreign economic activity of your company's department: Foreign Economic Activity - Foreign Economic Activity"
+    },
+    [
+      {
+        "id": "22",
+        "item": "Working with import Suppliers / Buyers, namely: searching for partners, negotiating the terms of the transaction, preparing for the signing of foreign economic contracts"
+      },
+      {
+        "id": "23",
+        "item": "Finance flow management in the implementation of foreign economic activity, which is an important component of the logistics process and can significantly affect the final result. Participation at all stages of the financial route, making it optimal and correct"
+      },
+      {
+        "id": "24",
+        "item": "Management of costs and profits for foreign economic operations."
+      },
+      {
+        "id": "25",
+        "item": "Provision of services of a foreign economic activity agent. (agent for foreign economic activity)"
+      },
+      {
+        "id": "26",
+        "item": "Provision of Importer/Exporter services."
+      }
+    ],
+    {
+      "id": "27",
+      "desc": "We also provide cargo consolidation services at the warehouses of partner agents in China, which allows you to save money by sending a large consignment."
+    },
+    {
+      "id": "28",
+      "desc": "We work with Air from Southeast Asia, North America and Europe."
+    },
+    {
+      "id": "29",
+      "desc": "If you are looking for a more economical shipping option, but are not ready to wait for your goods to be delivered by sea, try the China Railway service, which you can find out about here or by calling us."
+    }
+  ],
+  "service-packaging": [
+    {
+      "id": "31",
+      "subtitle": "Quality packaging is a guarantee of the safety of your cargo at all stages of transportation. Baikal Service offers the following types of cargo packaging:"
+    },
+    [
+      {
+        "id": "32",
+        "item": "A wooden crate is a package made of wood that is custom-made for the size of the shipment."
+      },
+      {
+        "id": "33",
+        "item": "Palletizing cargo is the stacking of cargo on a pallet (1.2x0.8) using stretch film and tape."
+      },
+      {
+        "id": "34",
+        "item": "A pallet collar is a wooden box of adjustable height that helps to protect the cargo from external damage,"
+      },
+      {
+        "id": "35",
+        "item": "Polypropylene sealable bag is used for packing small, valuable cargoes, batches of small cargoes. "
+      },
+      {
+        "id": "36",
+        "item": "Cardboard box is a multipurpose package that is used when shipping small items,"
+      }
+    ]
+  ],
+  "service-inspection": [
+    {
+      "id": "41",
+      "subtitle": "In case of actual or alleged loss of or damage to the goods, the recipient and the carrier are obliged to provide each other with the opportunity to inspect the goods or check its condition before release of the goods to the recipient."
+    },
+    [
+      {
+        "id": "42",
+        "item": "Visual inspection of cargo during loading/unloading to/from a vehicle."
+      },
+      {
+        "id": "43",
+        "item": "Checking the vehicle before loading for suitability for the carriage of a particular type of cargo."
+      },
+      {
+        "id": "44",
+        "item": "Sampling and samples to send to a customer or to a lab for analysis."
+      },
+      {
+        "id": "45",
+        "item": "Reconciliation with documents of the correct marking and barcodes on packaging, packages."
+      },
+      {
+        "id": "46",
+        "item": "Checking the quality and integrity of the packaging, securing packages in the vehicle."
+      }
+    ]
+  ],
+  "service-storage": [
+    {
+      "id": "51",
+      "subtitle": "Basic storage in the warehouses of Baikal Service is an excellent service at competitive rates."
+    },
+    [
+      {
+        "id": "52",
+        "item": "We will come and pick up your shipment from any address. Both from your warehouse and from the warehouse of your suppliers."
+      },
+      {
+        "id": "53",
+        "item": "Let's unload your cargo, which came on pallets or in bulk, to our safekeeping warehouse."
+      },
+      {
+        "id": "54",
+        "item": "At the time of acceptance, we will take a photo in case of marriage or at your request and send it to your mail."
+      },
+      {
+        "id": "55",
+        "item": "We will collect orders according to your instructions (by the piece, by the box, by pallet, by cargo units), pack the goods in corrugated packaging or other packaging, stick stickers and attach the necessary information sheets, stack them on pallets and wrap them in the required number of layers of stretch film. "
+      },
+      {
+        "id": "56",
+        "item": "We will carry out targeted delivery to all cities of our presence, as well as to all cities of targeted and regional delivery."
+      }
+    ]
+  ],
+  "service-customs": [
+    {
+      "id": "61",
+      "subtitle": "Basic storage in the warehouses of Baikal Service is an excellent service at competitive rates."
+    },
+    [
+      {
+        "id": "62",
+        "item": "We will come and pick up your shipment from any address. Both from your warehouse and from the warehouse of your suppliers."
+      },
+      {
+        "id": "63",
+        "item": "Let's unload your cargo, which came on pallets or in bulk, to our safekeeping warehouse."
+      },
+      {
+        "id": "64",
+        "item": "At the time of acceptance, we will take a photo in case of marriage or at your request and send it to your mail."
+      },
+      {
+        "id": "65",
+        "item": "We will collect orders according to your instructions (by the piece, by the box, by pallet, by cargo units), pack the goods in corrugated packaging or other packaging, stick stickers and attach the necessary information sheets, stack them on pallets and wrap them in the required number of layers of stretch film. "
+      },
+      {
+        "id": "66",
+        "item": "We will carry out targeted delivery to all cities of our presence, as well as to all cities of targeted and regional delivery."
+      }
+    ]
+  ],
+  "transportation-title": "INTERNATIONAL CARGO TRANSPORT",
+  "transportation-subtitle": "Solution",
+  "transportation-desc": "We organize door-to-door delivery of your cargo by any mode of transport. We use a combination of different modes of transport in the supply chain (multimodal transportation), taking into account the optimization of transportation costs and compliance with basic logistics requirements and criteria.",
+  "transportation-items": [
+    {
+      "title": "Air",
+      "id": "air",
+      "desc": "Full range of air cargo consolidation and direct service.",
+      "time": "from 3 days"
+    },
+    {
+      "title": "Sea",
+      "id": "sea",
+      "desc": "Complete solutions for sea cargo LCL and FCL in any direction",
+      "time": "from 7 days"
+    },
+    {
+      "title": "Auto",
+      "id": "auto",
+      "desc": "LTL solutions providing complex delivery. Europe, Russia, North Africa, CIS countries, China",
+      "time": "from 4 days"
+    },
+    {
+      "title": "Railway",
+      "id": "wait",
+      "desc": "LCL and FCL solutions for fast delivery from China to Russia and Europe",
+      "time": "from 2 days"
+    }
+  ],
+  "business-title": "for BUSINESS",
+  "business-subtitle": "Solutions",
+  "business-desc": "We are ready to offer non-standard solutions for your business, as well as provide a full range of related services.",
+  "business-items": [
+    {
+      "title": "DATA Center",
+      "id": "001",
+      "desc": "We manage the logistics procedures of DATA Ceters Clients",
+      "code": "01"
+    },
+    {
+      "title": "EOR-IOR agent",
+      "id": "002",
+      "desc": "Importer/exporter services in Russia and Europe.",
+      "code": "02"
+    },
+    {
+      "title": "Certification",
+      "id": "003",
+      "desc": "We will prepare a package of necessary permits for customs clearance of cargo - certificates, DS, notifications, licenses.",
+      "code": "03"
+    },
+    {
+      "title": "Insurance",
+      "id": "004",
+      "desc": "We will help you choose an insurance company for cargo insurance.",
+      "code": "04"
+    },
+    {
+      "title": "Global Trading Agent",
+      "id": "005",
+      "desc": "We offer the services of an International Trade Agent. We will conduct international market research at your request, advise you on the choice of a Supplier, conduct bidding and procurement procedures. We are ready to negotiate with potential partners and conclude contracts with them as your Agent.",
+      "code": "05"
+    }
+  ],
+  "groupage-cargo-title": "groupage cargo",
+  "groupage-cargo-items": [
+    {
+      "title": "Shipping from/to Europe",
+      "id": "cargo1"
+    },
+    {
+      "title": "Shipping to CIS",
+      "id": "cargo2"
+    },
+    {
+      "title": "Delivery from China",
+      "id": "cargo3"
+    },
+    {
+      "title": "Shipping from Korea",
+      "id": "cargo4"
+    },
+    {
+      "title": "Shipping from Israel",
+      "id": "cargo5"
+    },
+    {
+      "title": "Delivery from Ukraine",
+      "id": "cargo6"
+    },
+    {
+      "title": "Shipping from America",
+      "id": "cargo7"
+    },
+    {
+      "title": "Shipping from Canada",
+      "id": "cargo8"
+    },
+    {
+      "title": "Shipping from/to North Africa",
+      "id": "cargo9"
+    }
+  ],
+  "partners-title": "partners",
+  "partners-subtitle": "Our",
+  "office": "Our offices",
+  "contacts": "Contacts",
+  "company_name": "VEDEXPRESS LLC",
+  "company_id": "TIN 7811767459",
+  "company_address": "192029, Saint-Petersburg, 76 Obukhovskoy oborony Ave., building 7, lit. A, room 2313B",
+  "email": "info@vedexpress.com",
+  "schedule": "Mon-Sun: 10.00-18.00",
+  "aggrement": "User Agreement",
+  "privacy_policy": "Privacy Policy",
+  "docs-items": [
+    {
+      "title": "Framework Agreement",
+      "id": "doc1"
+    },
+    {
+      "title": "Additional Agreement #1",
+      "id": "doc2"
+    }
+  ],
+  "info-items": [
+    {
+      "title": "On what terms do you work?",
+      "id": "info1"
+    },
+    {
+      "title": "Do you have your own car park or not?",
+      "id": "info2"
+    },
+    {
+      "title": "Do I need to make an advance payment?",
+      "id": "info3"
+    },
+    {
+      "title": "Is it possible to defer payment?",
+      "id": "info4"
+    }
+  ]
+}

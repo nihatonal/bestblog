@@ -1,0 +1,128 @@
+#skills {
+  background-image: url("../assets/images/skills.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#skills .bg-50-r {
+  left: 0;
+}
+#skills .section-block-title {
+  max-width: 50%;
+}
+
+#skills .widget-block:last-child {
+  margin-top: 30px;
+  border: 1px solid transparent;
+}
+.widget-block .progress:last-child {
+  margin: 50px 0;
+}
+
+.fucts-block {
+  text-align: center;
+  position: relative;
+}
+.fucts-block .fuct {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.fucts-block .fuct h4 {
+  color: #ffffff;
+  font-family: "josefin-sans", sans-serif;
+  margin: 15px 0 50px;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.fucts-block .fuct h2 {
+  font-size: 42px;
+  color: #b46e3c;
+  font-weight: 900;
+  font-family: "opens-sans", sans-serif;
+}
+
+.block-feature {
+  position: relative;
+  padding: 0 0 50px 65px;
+  backface-visibility: hidden;
+  z-index: 140;
+}
+
+.block-feature h4 {
+  color: #ffffff;
+  font-family: "josefin-sans", sans-serif;
+  margin: 0 0 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.block-feature a {
+  color: #ffffff;
+  font-family: "josefin-sans", sans-serif;
+  cursor: default;
+  margin: 0 0 20px;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.block-feature a:hover {
+  color: #b46e3c;
+}
+
+.block-feature p {
+  color: #999;
+  margin-bottom: 0;
+}
+
+.block-feature .block-feature-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 40px;
+  font-size: 40px;
+  color: #b46e3c;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  z-index: 5;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}
+.block-feature:hover .block-feature-icon {
+  transform: scale(0.65, 0.65);
+  color: #fff;
+}
+.block-feature:hover::after {
+  transform: scale(1, 1);
+  color: #fff;
+}
+.block-feature:after {
+  position: absolute;
+  transform: scale(0, 0);
+  left: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  top: 0;
+  content: "";
+  background-color: #b46e3c;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1;
+}

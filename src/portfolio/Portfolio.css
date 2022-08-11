@@ -1,0 +1,16 @@
+#portfolio {
+  background-image: url("../assets/images/works2.jfif");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#portfolio .section-block-title {
+  max-width: 50%;
+}
+
+.lightbox-wrapper {
+  width: 50%;
+  /* padding-right: 45px;
+  margin-top: 50px; */
+}

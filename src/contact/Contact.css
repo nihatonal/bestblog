@@ -1,0 +1,41 @@
+#contact {
+  background-image: url("../assets/images/contacts.jfif");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#contact .bg-50-r {
+  left: 0;
+}
+/* #contact .section-block-title {
+  max-width: 50%;
+} */
+
+#contact .widget-block:last-child {
+  margin-left: 30px;
+  /* border: 1px solid transparent; */
+}
+
+.social-icons-block ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons-block ul li {
+  padding: 0 0.5rem;
+  /* width:25px;
+  height: 25px; */
+  cursor: pointer;
+}
+.social-icons-block ul li .social_icon:hover {
+  border-radius: 100%;
+  box-shadow: 0 0 10px #fff;
+  transition: all ease 0.2s;
+}
+
+.contact-icon {
+  margin-right: 15px;
+  color: #b46e3c;
+  font-size: 14px;
+}

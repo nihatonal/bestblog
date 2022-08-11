@@ -1,0 +1,40 @@
+.mobile-menu {
+    display: none;
+  }
+  @media screen and (max-width: 600px) {
+    /* .mobile-menu {
+      width: 24px;
+      height: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: all 0.3s linear;
+      position: relative;
+      z-index: 99;
+    } */
+  
+    /* .line {
+      width: 24px;
+      height: 3px;
+      background: #FCFEFE;
+      transition: all 0.3s linear;
+    }
+    .line-1{
+      transform-origin: 5% 0%;
+      transform: rotate(45deg);
+     
+    }
+    .line-2 {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    .line-3{
+      transform-origin: 0% 100%;
+      transform: rotate(-45deg);
+    } */
+    /* .active-hamburger{
+      transform: rotateZ(90deg);
+    } */
+  }
+  
