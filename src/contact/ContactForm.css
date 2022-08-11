@@ -3,14 +3,14 @@ form textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: none;
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
   color: #b46e3c;
   line-height: inherit;
   padding: 10px 20px;
   width: 100%;
   font-size: 14px;
-  background: #191919;
+  background: rgba(180, 110, 60, 0.1);
   margin-bottom: 25px;
   text-align: center;
 }
@@ -110,6 +110,9 @@ textarea:hover {
   max-width: 200px;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+#form-wrapper p {
+  margin-bottom: 0;
 }
 .contact-btn:hover {
   background: #b46e3c;

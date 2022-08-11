@@ -4,14 +4,14 @@
 .portfolio-items {
   position: relative;
   padding-left: 45px;
-  padding-top: 45px;
+  padding-top: 0;
   display: flex;
   flex-wrap: wrap;
 }
 .portfolio-item-wrapper {
   position: relative;
   width: 50%;
-  padding-right: 45px;
+  padding-right: 15px;
 }
 /* .portfolio-item-wrapper:nth-child(2n) {
   padding-right: 0;

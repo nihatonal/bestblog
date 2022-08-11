@@ -1,14 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import home_img from "../assets/images/home.jpg";
-import ReactImageMagnify from 'react-image-magnify';
 import "./Wellcome.css";
 
 const Wellcome = () => {
   const { ref, inView, entry } = useInView({
     /* Optional options */
     threshold: 0,
-   
+    rootMargin: "-200px",
   });
   const elRef = useRef();
   const [rotate, setRotate] = useState(0);
@@ -16,8 +15,10 @@ const Wellcome = () => {
   const [scrollPosition, setScrollPosition] = useState(15);
   const handleScroll = () => {
     const position = window.pageYOffset;
+ 
     setScrollPosition(position / 5);
     setRotate(position / 10);
+    console.log(position);
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -41,10 +42,10 @@ const Wellcome = () => {
 
   return (
     <section className="wellcome" ref={ref}>
-      <div className="bg-inner-dark2"></div>
-      <div className="bg-50-l"></div>
+      <div className={inView ? "bg-inner-dark2 wellcome_bg_filter":"bg-inner-dark2"}></div>
+      {/* <div className="bg-50-l"></div> */}
 
-      <div
+      {/* <div
         id="bg_object_l"
         ref={elRef}
         className="bg_object_l"
@@ -53,7 +54,7 @@ const Wellcome = () => {
           transform: `rotate(${rotate}deg)`,
         }}
         onScroll={scrollHandler}
-      ></div>
+      ></div> */}
 
       <div className="container-fluid">
         <div className="section-block-title">

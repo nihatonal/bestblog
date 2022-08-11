@@ -86,7 +86,7 @@ const MainNavigation = (props) => {
                       Skills
                     </Link>
                   </li>
-                  <li className="works">
+                  <li className="portfolio">
                     <span className="bg-icon">4</span>
                     <span className="rotated-title">Works</span>
                     <Link

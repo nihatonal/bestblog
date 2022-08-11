@@ -37,7 +37,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <ContactForm />
+          <ContactForm className={inView? 'btn-flash':''} />
         </div>
         <div className="section-block-title">
           <article className="section-title-body">

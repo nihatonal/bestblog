@@ -47,7 +47,7 @@
 
 .block-feature {
   position: relative;
-  padding: 0 0 50px 65px;
+  padding: 0 0 30px 65px;
   backface-visibility: hidden;
   z-index: 140;
 }

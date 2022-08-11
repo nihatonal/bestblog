@@ -66,42 +66,34 @@
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
   cursor: pointer;
+  background-position: center center;
+  background-size: cover;
 }
 .navbar-nav li:hover {
   width: 40%;
+  background-position: center center;
+  background-size: cover;
+  transition: all ease 0.3s;
 }
 .home {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
     url("../../assets/images/home.jpg");
-  background-position: center center;
-  background-size: cover;
 }
 .about {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
     url("../../assets/images/about.jpg");
-
-  background-position: center center;
-  background-size: cover;
 }
 .skills {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
     url("../../assets/images/skills.jpg");
-
-  background-position: center center;
-  background-size: cover;
 }
-.works {
+.portfolio {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
     url("../../assets/images/works2.jfif");
-  background-position: center;
-  background-size: cover;
 }
 .contact {
   background: linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%),
     url("../../assets/images/contacts.jfif");
-
-  background-position: center center;
-  background-size: cover;
 }
 
 .bg-icon {

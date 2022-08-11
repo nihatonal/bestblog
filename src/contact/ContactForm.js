@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import "./ContactForm.css";
 Modal.setAppElement("#root");
 
-function ContactForm() {
+function ContactForm(props) {
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
   const [Phone, setPhone] = useState("");
@@ -141,10 +141,10 @@ function ContactForm() {
                 </label>
               </p>
               <div className="clearfix"></div>
-              <div className="text-center">
+              <div className={`text-center`}>
                 <input
                   type="submit"
-                  className="contact-btn"
+                  className={`contact-btn ${props.className}`}
                   value="Send Message"
                 />
               </div>

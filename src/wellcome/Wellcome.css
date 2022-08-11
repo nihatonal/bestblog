@@ -25,6 +25,29 @@
   content: none;
 }
 
+@keyframes bg_show {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+.wellcome_bg_filter {
+  -webkit-animation: linear forwards;
+  -webkit-animation-name: bg_show;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-animation-duration: 10s;
+}
 .wellcome .bg-inner-dark2 {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagemagnify-container {
+  position: absolute;
+  z-index: 99;
+}
+.imagemagnify-container img {
+  opacity: 0.2;
+  position: relative;
 }
