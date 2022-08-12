@@ -11,7 +11,7 @@
 .portfolio-item-wrapper {
   position: relative;
   width: 50%;
-  padding-right: 15px;
+  padding-right: 45px;
 }
 /* .portfolio-item-wrapper:nth-child(2n) {
   padding-right: 0;
@@ -74,4 +74,21 @@
 .single-portfolio-block:hover .single-portfolio-title {
   transform: translateY(35px) translateZ(1px);
   opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .portfolio-items {
+  
+    padding-left: 45px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .portfolio-item-wrapper {
+    position: relative;
+    width: 100%;
+    padding-right: 45px;
+  }
 }

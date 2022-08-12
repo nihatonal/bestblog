@@ -11,7 +11,7 @@ const Contact = () => {
   const { ref, inView, entry } = useInView({
     /* Optional options */
     threshold: 0,
-    rootMargin: "-300px",
+    rootMargin: "-200px",
   });
   return (
     <section id="contact" ref={ref}>

@@ -9,7 +9,7 @@ function Lightbox() {
   const { ref, inView, entry } = useInView({
     /* Optional options */
     threshold: 0,
-    rootMargin: "-200px",
+    rootMargin: "-250px",
   });
   return (  
     <div className="portfolio-items" ref={ref}>

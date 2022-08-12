@@ -22,7 +22,6 @@ const ImageMagnifier = ({
     const elem = document.getElementById("image-welcome");
 
     const { width, height } = elem.getBoundingClientRect();
-    console.log(width, height);
     setSize([width, height]);
     // setShowMagnifier(true);
   };

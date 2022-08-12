@@ -8,7 +8,11 @@
 #about .section-block-title {
   max-width: 50%;
 }
-
+@media (max-width: 767px) {
+  #about .section-block-title {
+    max-width: 100%;
+  }
+}
 #about .widget-block:last-child {
   margin-top: 30px;
   border: 1px solid transparent;
@@ -24,6 +28,7 @@
   background-color: rgba(180, 110, 60, 0.1);
   position: relative;
   overflow: visible;
+  z-index: 5;
 }
 @keyframes full_up_1 {
   from {
@@ -100,4 +105,5 @@
 .progress.dark .skill-value span {
   color: rgba(34, 34, 34, 0.9);
 }
+
 

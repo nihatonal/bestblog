@@ -15,6 +15,11 @@
   padding: 45px 45px 0 45px;
   max-width: 68%;
 }
+@media (max-width: 767px) {
+  .wellcome .section-block-title {
+    max-width: 100%;
+  }
+}
 .wellcome .section-title-body {
   padding-bottom: 0;
 }

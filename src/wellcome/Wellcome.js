@@ -18,7 +18,7 @@ const Wellcome = () => {
  
     setScrollPosition(position / 5);
     setRotate(position / 10);
-    console.log(position);
+    
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);

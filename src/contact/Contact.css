@@ -59,6 +59,30 @@
 }
 .btn-flash:hover {
   background: #b46e3c;
-    color: #fff;
-    border-color: #b46e3c;
+  color: #fff;
+  border-color: #b46e3c;
+}
+
+@media (max-width: 767px) {
+  #contact .section-block-title {
+    order: -1;
+    padding-bottom: 25px;
+  }
+
+  /* .container-fluid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  #contact .row {
+    flex-direction: column;
+  }
+  #contact .widget-block:last-child {
+    margin-left: 0;
+  }
+  #contact p {
+    margin-bottom: 20px;
+  }
 }

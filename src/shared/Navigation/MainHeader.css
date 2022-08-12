@@ -5,11 +5,10 @@
   background-position: center center;
   background-size: cover;
 }
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .header {
     width: 320px;
     height: 23px;
-    /* margin-top: 12px; */
     padding-top: 12px;
   }
-}
+} */

@@ -4,9 +4,7 @@ import { useLocation } from "react-router-dom";
 
 import MainHeader from "./MainHeader";
 import Logo from "./Logo";
-import NavLinks from "./NavLinks";
 import Hamburger from "./Hamburger";
-import SideMenu from "./SideMenu";
 
 import LanguageSelector from "../../shared/IU/LanguageSelector";
 
@@ -17,7 +15,6 @@ import "./MainNavigation.css";
 const MainNavigation = (props) => {
   const location = useLocation();
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
   const [fixHeader, setFixed] = useState(false);
 
   const fixedHeader = () => {
@@ -33,9 +30,9 @@ const MainNavigation = (props) => {
   };
 
   window.addEventListener("scroll", fixedHeader);
+
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen);
-    setMenuOpen(!menuOpen);
   };
 
   return (
@@ -47,64 +44,92 @@ const MainNavigation = (props) => {
               fixHeader ? "header-body header-body-fixed" : "header-body"
             }
           >
+            <Hamburger show={navbarOpen} onClick={handleToggle} />
             <div id="container-fixed">
               <nav className="navbar navbar-default">
                 <ul className="navbar-nav">
-                  <li className="home">
+                  <li
+                    className={
+                      navbarOpen ? "home show-nav-item" : "home fade-nav-item"
+                    }
+                    onClick={()=> setNavbarOpen(!navbarOpen)}
+                  >
                     <span className="bg-icon">1</span>
                     <span className="rotated-title">Home</span>
                     <Link
                       className={fixHeader ? "link-item show-nav" : "link-item"}
                       to="#home"
-                      onClick={props.onClickNavItem}
                       smooth
                     >
                       Home
                     </Link>
                   </li>
-                  <li className="about">
+                  <li
+                    className={
+                      navbarOpen ? "about show-nav-item" : "about fade-nav-item"
+                    }
+                    onClick={()=> setNavbarOpen(!navbarOpen)}
+                  >
                     <span className="bg-icon">2</span>
                     <span className="rotated-title">About</span>
                     <Link
                       className={fixHeader ? "link-item show-nav" : "link-item"}
                       to="/#about"
-                      onClick={props.onClickNavItem}
                       smooth
                     >
                       About
                     </Link>
                   </li>
-                  <li className="skills">
+                  <li
+                    className={
+                      navbarOpen
+                        ? "skills show-nav-item"
+                        : "skills fade-nav-item"
+                    }
+                    onClick={()=> setNavbarOpen(!navbarOpen)}
+                  >
                     <span className="bg-icon">3</span>
                     <span className="rotated-title">Skills</span>
                     <Link
                       className={fixHeader ? "link-item show-nav" : "link-item"}
                       to="#skills"
-                      onClick={props.onClickNavItem}
                       smooth
                     >
                       Skills
                     </Link>
                   </li>
-                  <li className="portfolio">
+                  <li
+                    className={
+                      navbarOpen
+                        ? "portfolio show-nav-item"
+                        : "portfolio fade-nav-item"
+                    }
+                    onClick={()=> setNavbarOpen(!navbarOpen)}
+                  >
                     <span className="bg-icon">4</span>
                     <span className="rotated-title">Works</span>
                     <Link
                       className={fixHeader ? "link-item show-nav" : "link-item"}
                       to="#portfolio"
-                      onClick={props.onClickNavItem}
+                      onClick={handleToggle}
                       smooth
                     >
                       Works
                     </Link>
                   </li>
-                  <li className="contact">
+                  <li
+                    className={
+                      navbarOpen
+                        ? "contact show-nav-item"
+                        : "contact fade-nav-item"
+                    }
+                    onClick={()=> setNavbarOpen(!navbarOpen)}
+                  >
                     <span className="bg-icon">5</span>
                     <span className="rotated-title">Contacts</span>
                     <Link
                       className={fixHeader ? "link-item show-nav" : "link-item"}
                       to="/#contact"
-                      onClick={props.onClickNavItem}
                       smooth
                     >
                       Contacts

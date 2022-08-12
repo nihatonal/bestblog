@@ -10,10 +10,14 @@
 .full-screen-block.slider1_1 {
   background: linear-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.6) 100%),
     url("../../assets//images/potential.jpg");
+    background-position: center center;
+    background-size: cover;
 }
 .full-screen-block.slider1_2 {
   background: linear-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.6) 100%),
     url("../../assets//images/productivty.jpg");
+    background-position: center center;
+    background-size: cover;
 }
 
 .sliderTitleBlock {
@@ -56,6 +60,34 @@
   .sliderTitleBlock .homeSliderTitle {
     font-size: 46px;
     line-height: 46px;
+  }
+}
+@media (max-width: 1200px) {
+  /* .container .full-screen-block {
+    position: relative;
+    width: 100%;
+    height: 50%;
+  }  */
+  .sliderTitleBlock {
+    position: absolute;
+    left: 57px;
+    bottom: 20px;
+    z-index: 20;
+  }
+  .sliderTitleBlock .homeSliderTitleTop {
+    font-size: 18px;
+    line-height: 16;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+  }
+  .slick-slider {
+    box-sizing: border-box;
+  }
+  .sliderTitleBlock .homeSliderTitle {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 0 0 25px;
   }
 }
 

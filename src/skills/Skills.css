@@ -126,3 +126,24 @@
   transition: all 0.3s ease;
   z-index: 1;
 }
+
+@media (max-width: 767px) {
+  #skills .section-block-next {
+    order: 1;
+    max-width: 100%;
+  }
+  #skills .section-block-title {
+    max-width: 100%;
+  }
+  .block-feature:hover .block-feature-icon {
+    transform: scale(0.65, 0.65);
+    color: #fff;
+  }
+  .block-feature:hover::after {
+    transform: scale(1, 1);
+    color: #fff;
+  }
+  #skills .widget-block  p {
+    color: #fff;
+  }
+}

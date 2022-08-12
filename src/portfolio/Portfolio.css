@@ -15,3 +15,31 @@
   /* padding-right: 45px;
   margin-top: 50px; */
 }
+
+@media (max-width: 1200px) {
+  #portfolio .section-block-title {
+    max-width: 100%;
+  }
+  .lightbox-wrapper {
+    width: 100%;
+  }
+  #portfolio .container-fluid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  #portfolio {
+    padding-top: 0;
+  }
+  #portfolio .section-block-title {
+    max-width: 100%;
+  }
+  .lightbox-wrapper {
+    width: 100%;
+    display: flex;
+  }
+}
